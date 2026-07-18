@@ -1,0 +1,60 @@
+.color-picker-container {
+    background-color: #ffffff;
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.heading {
+    font-size: 48px;
+    color: #222222;
+}
+
+.buttons-container {
+    margin-top: 30px;
+}
+
+.button {
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    border-radius: 16px;
+    border: 3px solid #222222;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-1 {
+    background-color: #e0e0e0;
+}
+
+.button-2 {
+    background-color: #6fcf97;
+}
+
+.button-3 {
+    background-color: #56ccf2;
+}
+
+.button-4 {
+    background-color: #bb6bd9;
+}
+
+.selected-color {
+    width: 420px;
+    margin: 30px auto;
+    background-color: #222222;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.description {
+    font-size: 22px;
+    color: #1e293b;
+}
+
+#selectedColorHexCode {
+    color: #49a6e9;
+}
